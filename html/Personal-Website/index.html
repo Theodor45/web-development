@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Theo's website</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+<style>
+    .high_quality-text {
+        color: blue
+    }
+
+    .main_page {
+        background-color: #FFE4C4
+    }
+
+    .favorite_websites {
+        background-color: #7FFFD4;
+        padding: 10px
+    }
+
+    .yass {
+        padding: 10px;
+        color: blue;
+        background-color: yellow
+    }
+
+    form.form-example {
+        display: table;
+    }
+
+    div.form-example {
+        display: table-row;
+    }
+
+    label,
+    input {
+        display: table-cell;
+        margin-bottom: 10px;
+    }
+
+    label {
+        padding-right: 10px;
+    }
+</style>
+
+<main>
+    <script>
+        function myFunction() {
+            var x = document.getElementsByClassName("favorite_websites");
+            for (var i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+        }
+    </script>
+    <button class="yass" onclick="myFunction()">
+        <h2>EEE</h2>
+    </button>
+
+    <form action="" method="get" class="form-example">
+        <div class="form-example">
+            <label for="name">Enter your name: </label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div class="form-example">
+            <label for="email">Enter your email: </label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div class="form-example">
+            <input type="submit" value="Subscribe!">
+        </div>
+    </form>
+</main>
+
+<body class="main_page">
+    <center>
+        <hr size="4" color="gray" width="100%" noshade>
+        <br size="3">
+        <h1><em>My website for learning HTML</em></h1>
+        <br size="3">
+        <hr size="4" color="gray" width="100%" noshade>
+    </center>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementsByClassName("favorite_websites");
+            for (var i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+        }
+    </script>
+
+    <h2>Education</h2>
+    <ul>
+        <li>CNI/Colegiul National Iasi</li>
+        <li>Python & Web Development Bootcamps.</li>
+        <li>The primary school Carol I</li>
+    </ul>
+    <br>
+    <h2>Favorite Foods</h2>
+    <ol>
+        <li>Spaghetti</li>
+        <li>Lasagna</li>
+        <li>Salad</li>
+    </ol>
+    <br>
+    <h2>Hobbies</h2>
+    <dl>
+        <dt><strong>Coding</strong></dt>
+        <dd>I like doing fun projects with Python and now i'm learning<br>Fullstack Development.</dd>
+        <dd>I learned API's, HTML, CSS, OOP, etc.</dd>
+        <br>
+
+        <dt><strong>Chess</strong></dt>
+        <dd>I really like the strategy and positioning of chess,<br>it's a really interesting game!</dd>
+        <br>
+
+        <dt><strong>Investing</strong></dt>
+        <dd>I like learning about the economy, inflation, stocks, bonds,<br> etfs, indexfunds and things like loands,
+            morgages and taxes.</dd>
+        <br>
+
+        <dt><strong>Basketball</strong></dt>
+        <dd>It's fun to play 2-3 times a week, it's healthy and if you<br>play with friends it's also fun.</dd>
+        <br>
+    </dl>
+
+    <div class="favorite_websites">
+        <h2>Favorite Websites</h2>
+        <table>
+            <tr>
+                <td><a href="https://youtube.com"><em>Youtube</em></a></td>
+                <td>
+                    <pre>    A website good both for learning and entertainment.</pre>
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td><a href="https://github.com"><em>Github</em></a></td>
+                <td>
+                    <pre color="blue">    A good website for developers that try to stay organised.</pre>
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td><a href="https://9anime.to"><em>9Anime</em></a></td>
+                <td>
+                    <pre>    An amazing website to watch free <span class="high_quality-text">highquality</span> anime on.</pre>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+
+</body>
+
+</html>
