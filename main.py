@@ -13,7 +13,7 @@ def send_email():
 
     sender = "albertorodrigues7248@gmail.com"
     receiver = "albertorodrigues7248@gmail.com"
-    password = 'cool&pass*225'
+    password = 'password'
 
     connection = smtplib.SMTP("smtp.gmail.com", port=587)
     connection.starttls()
