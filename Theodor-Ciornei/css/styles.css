@@ -1,0 +1,29 @@
+body {
+    background-color: powderblue;
+    margin: 0px;
+}
+
+.introduction {
+    margin: 0px;
+    height: 200px;
+    width: 200px;
+    border: solid 10px;
+    padding: 20px;
+}
+
+.first_square {
+    height: 200px;
+    width: 200px;
+    background-color: slateblue;
+    border: solid;
+    margin-left: 260px;
+    border: solid 20px;
+}
+
+.second_square {
+    height: 200px;
+    width: 200px;
+    margin-left: 500px;
+    background-color: red;
+    border: solid 10px;
+}
